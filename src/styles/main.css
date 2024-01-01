@@ -1,0 +1,60 @@
+/*
+  This is a reasonable starting point for the CSS in Mock.
+  Positioning in CSS can sometimes be annoying to manage, so we've opted to 
+  give you this starter CSS. Feel free to modify it as you wish, though.
+*/
+
+.mock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto; /* Enable scrolling if needed */
+    height: 68vh; 
+}
+
+.mock-history {
+    flex-grow: 1;
+    width: 100%;
+    overflow: auto;
+}
+
+.mock-input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.mock-command-box {
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+}
+
+
+
+/*New css styles for HTML table*/
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(240, 203, 240);
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px
+}
+
+/*New css style for box around history item*/
+.history-element {
+    padding: 16px;
+    margin: 16px;
+    border-radius: 16px;
+    border: 1px solid gray;
+}
