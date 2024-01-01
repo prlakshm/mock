@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => {
   return {
-    base: '/mock-prlakshm-dkyerema-prlakshm-deploy/',
+    base: '/mock',
     build: {
       outDir: 'build',
     },

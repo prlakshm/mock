@@ -1,8 +1,8 @@
 {
-  "name": "cs32-sprint3-gearup",
+  "name": "cs32-sprint3-mock",
   "version": "22.2.0",
-  "homepage": "https://prlakshm.github.io/mock-deploy",
-  "description": "Brown CSCI0320 Sprint 3 Gearup for Fall 2023",
+  "homepage": "https://prlakshm.github.io/mock",
+  "description": "Brown CSCI0320 Sprint 3 Mock for Fall 2023",
   "license": "UNLICENSED",
   "dependencies": {
     "@types/node": "^16.11.36",
